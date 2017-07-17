@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=============================================================*/
+
+@font-face {
+	font-family: silkscreen;
+	src: url(images/slkscr.ttf);
+}
+
+body {
+	background: url(images/background.png);
+}
+
+h1 {
+	font-size: 40px;
+}
+
+a {
+	color: white;
+}
+
+#title {
+	background: url(images/logo.png) no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 224px;
+	height: 70px;
+}
+
+#video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#description {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: silkscreen;
+	color: white;
+	max-width: 320px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+#description p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#description h3 {
+	padding: 30px;
+	font-size: 32px;
+}
+
+#description h4 {
+	padding: 30px;
+	font-size: 24px;
+}
+
+#storelink {
+	padding-top: 30px;
+}
+
+#footer {
+	color: white;
+	font-family: silkscreen, non-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-align: center;
+}

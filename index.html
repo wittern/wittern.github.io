@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<h1>Projects</h1>
+
+<ul>
+  <li>
+    <a href="http://www.m4iot.org" target="_blank">Co-organizer of M4IoT</a> - Workshop on Middleware and Applications for the Internet of Things (co-located with <a href="http://2017.middleware-conference.org/" target="_blank">Middleware conference</a>)
+  </li>
+  <li>
+    <a href="https://cloudservicebenchmarking.github.io/" target="_blank">Cloud Service Benchmarking</a> - Co-author of a book published at Springer
+  </li>
+  <li>
+    <a href="http://www.mota.ws" target="_blank">Co-organizer of MoTA</a> - Workshop on Mashups of Things and APIs (co-located with <a href="http://2016.middleware-conference.org/" target="_blank">Middleware conference</a>)
+  </li>
+  <li>
+    <a href="https://techcrunch.com/video/momentum/519621973/" target="_blank">Momentum</a> - find what to do, right here, right now
+  </li>
+  <li>
+    <a href="https://github.com/ErikWittern/TODOit" target="_blank">TODOit</a> - hassle-free TODO application development
+  </li>
+  <li>
+    <a href="https://numbie.herokuapp.com/" target="_blank">Numbie</a> - anonymous, ephemeral location sharing
+  </li>
+  <li>
+    <a href="/gravityquest">Gravity Quest</a> - a mobile game for iPhone
+  </li>
+</ul>
+
+
+<h1>Posts</h1>
+
+<ul>
+{% for post in site.posts limit:50 %}
+  <li>
+    {% if post.external == null and post.hide != true %}
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.external }}" target="_blank">{{ post.title }}</a>
+      <em class="purple">external</em>
+    {% endif %}
+
+    <span>
+      {% assign day = post.date | date: "%-d"  %}
+      {% case day %}
+        {% when '1' or '21' or '31' %}{{ day }}st
+        {% when '2' or '22' %}{{ day }}nd
+        {% when '3' or '23' %}{{ day }}rd
+        {% else %}{{ day }}th
+      {% endcase %}
+      {{ post.date | date: "of %B, %Y" }}
+    </span>
+
+  </li>
+{% endfor %}  
+</ul>
+
+
+<h1>Profiles</h1>
+
+<ul>
+  <li>
+    <a href="http://researcher.ibm.com/researcher/view.php?person=us-witternj" target="_blank">IBM Research</a> 
+  </li>
+  <li>
+    <a href="https://twitter.com/erikwittern" target="_blank">Twitter</a>
+  </li>
+  <li>
+    <a href="https://github.com/erikwittern" target="_blank">GitHub</a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/pub/erik-wittern/45/110/94" target="_blank">LinkedIn</a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/erik.wittern" target="_blank">Facebook</a>
+  </li>
+  <li>
+    <a href="https://scholar.google.com/citations?user=trin8Z4AAAAJ&hl=en" target="_blank">Google Scholar</a>
+  </li>
+</ul>

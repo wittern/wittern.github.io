@@ -1,0 +1,139 @@
+@font-face{
+  font-family: Arnhem;
+  src: url("arnhem-pro-normal.otf") format("opentype");
+}
+
+body {
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arnhem', serif;
+  font-weight: normal;
+  color: black;
+}
+
+.cousine {
+  font-family: 'Cousine', sans-serif;
+}
+
+.right {
+  float: right;
+}
+
+header {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+figure {
+  margin: 0;
+}
+
+p, li, span, i {
+  color: #444;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.4rem
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover {
+  color: #428bca;
+  text-decoration: underline;
+}
+a:visisted {
+  color: #428bca;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+img {
+  max-width: 640px;
+}
+
+#main h3 {
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+#main h4 {
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #BBBBBB;
+  padding-top: 50px;
+}
+
+.hbar {
+  max-width: 640px;
+  width: 100%;
+}
+
+#logo {
+  text-decoration: none;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+pre {
+  background-color: #efefef;
+  padding: 10px;
+  overflow: auto;
+}
+
+.grey {
+  color: grey;
+}
+
+.purple {
+  color: #ccccff;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.after {
+  display: inline-block;
+  padding-bottom: 20px;
+}
