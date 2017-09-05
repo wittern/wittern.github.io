@@ -1,6 +1,7 @@
 ---
 permalink: "/gravityquest/"
 slug: gravityquest
+layout: null
 ---
 
 <html>
