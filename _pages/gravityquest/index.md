@@ -10,6 +10,7 @@ layout: null
     <meta http-equiv="Content-Type" content="text/html">
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+    <link rel="icon" type="image/png" href="/assets/gravityquest/images/favicon-32x32.png">
 
     <link rel="stylesheet" type="text/css" href="/assets/gravityquest/gravityquest.css">
 
