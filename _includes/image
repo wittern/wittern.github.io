@@ -2,7 +2,7 @@
 {% if include.caption %}
   <div class="centered">  
     <figure>
-        <img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+        <img src="/assets/posts/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %} {% if include.maxWidth %} style="max-width: {{ include.maxWidth }};" {% endif %}/>
         <figcaption class="grey">{{ include.caption }}</figcaption>
     </figure>
   </div>
