@@ -1,21 +1,21 @@
-@font-face{
-  font-family: Arnhem;
-  src: url("arnhem-pro-normal.otf") format("opentype");
-}
-
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
+  background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arnhem', serif;
-  font-weight: normal;
-  color: black;
+  font-family: 'Inter', serif;
+  font-weight: bold;
+  color: white;
 }
 
 .cousine {
-  font-family: 'Cousine', sans-serif;
+  font-family: 'Cousine', monospace;
+}
+
+code, pre {
+  font-family: 'Cousine', monospace;
 }
 
 .right {
@@ -32,7 +32,7 @@ figure {
 }
 
 p, li, span, i {
-  color: #444;
+  color: #CCC;
 }
 
 li {
@@ -56,15 +56,15 @@ h5 {
 }
 
 a {
-  color: #428bca;
+  color: #6ab9ff;
   text-decoration: none;
 }
 a:hover {
-  color: #428bca;
+  color: #6ab9ff;
   text-decoration: underline;
 }
 a:visisted {
-  color: #428bca;
+  color: #6ab9ff;
 }
 
 #container {
@@ -93,7 +93,7 @@ footer {
   display: block;
   text-align: center;
   font-size: 0.9rem;
-  color: #BBBBBB;
+  color: #777;
   padding-top: 50px;
 }
 
@@ -116,7 +116,7 @@ footer {
 }
 
 pre {
-  background-color: #efefef;
+  background-color: #222;
   padding: 10px;
   overflow: auto;
 }

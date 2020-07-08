@@ -8,12 +8,15 @@ layout: null
   <head>
     <title>CV Erik Wittern</title>
     <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
       /* https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/ */
 
       body {
         padding: 2rem 1rem 2rem 1rem;
         background-color: #444;
+        font-family: 'Inter', sans-serif;
       }
 
       nav {
@@ -25,8 +28,17 @@ layout: null
         text-decoration: none;
       }
 
-      button {
+      button, select {
         cursor: pointer;
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        border: none;
+        outline:none;
+        border-radius: 5px;
+        background-color: #EEE;
+      }
+
+      button:hover {
+        background-color: #ccc;
       }
 
       h1 {
