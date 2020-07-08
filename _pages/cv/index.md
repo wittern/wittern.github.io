@@ -148,7 +148,7 @@ layout: null
       }
       @media print {
         body {
-          font-size: 75%;
+          font-size: 65%;
         }
         h1, h2, h3 {
           margin: 0.5rem 0 0 0;
@@ -165,6 +165,7 @@ layout: null
         body > main {
           max-width: 2000px;
           padding-top: 2rem;
+          padding-bottom: 0;
         }
         div.page-break {
           display: block;
@@ -219,11 +220,11 @@ layout: null
           </header>
           <main>
             <p>
-              Leading team of developers in the US and Taiwan to bring GraphQL features to IBM's DataPower/API Connect.
+              Leading team of developers in the US and Taiwan to bring GraphQL features to IBM's DataPower/API Connect product.
             </p>
             <ul>
               <li>
-                Design, prioritization, and implementation of core features (incl. query validation, static analysis, schema views; in TypeScript / C++).
+                Design, priortization, and implementation of core features (incl. query validation, static analysis, schema views; in C++ / TypeScript).
               </li>
               <li>
                 Sharing knowledge and teaching colleagues about GraphQL (one-to-one & via presentations).
@@ -298,7 +299,7 @@ layout: null
                   R&D of OpenAPI-to-GraphQL, an open-sourced library for migrating APIs to GraphQL. Includes overseeing related open-source process (testing automation, release management, customer support).
                 </li>
                 <li>
-                  Design, implementation, and continuous operation of API Harmony, an API catalog in the IBM Cloud, which relies on mining Web APIs and their use in open-source projects.
+                  Design, implementation, and continuous operation of API Harmony, an API catalog in the IBM Cloud, which relies on mining web APIs and their use in open-source projects.
                 </li>
               </ul>
               Apart from product adoption, my work has resulted in over 20 patents for IBM, and multiple publications in top international conferences and journals.
@@ -541,7 +542,7 @@ layout: null
           </header>
           <main>
             <p>
-              Received title "Dr.-Ing." (magna cum laude) for work on "Modeling and Selection of Software Service Variants" at the Institute of Applied Informatics and Formal Description Methods (AIFB) under Prof. Dr. Stefan Tai.
+              Received title "Dr.-Ing." (magna cum laude) for work on "Modeling and Selection of Software Service Variants" at the Institute of Applied Informatics and Formal Description Methods (AIFB) under supervision of Prof. Dr. Stefan Tai.
             </p>
           </main>
         </section>
@@ -585,10 +586,10 @@ layout: null
           <main>
             <ul>
               <li>
-                Grade 1.5 ("very good”), focus on computer science.
+                Grade 1.5 ("very good”), focus on computer science
               </li>
               <li>
-                Working as a research assistant from December 2009 to March 2010.
+                Working as a research assistant from December 2009 to March 2010
               </li>
             </ul>
           </main>
@@ -628,7 +629,7 @@ layout: null
         <main lang="en-US">
           <ul>
             <li>Over 25 talks at international scientific as well as at developer conferences (e.g., API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
-            <li>Technischer Vertreter IBMs und Founding Member in der GraphQL Foundation seit März 2019</li>
+            <li>Technical representative of IBM in the GraphQL Foundation since March 2019</li>
             <li>Creator and co-maintainer of OpenAPI-to-GraphQL open-source project (>700 GitHub stars)</li>
             <li>Member of program committees of numerous international top conferences (MSR, ICWE, ICWS ICSME etc.) und of the steering committee of the ESOCC conference since 2016</li>
             <li>Co-organizer of international scientific events, including the 2nd Vienna Software Seminar "DevOps and Microservice APIs” in August 2019 and multiple workshops (MoTA 2016; M4IoT 2017 & 2018) at the Middleware conference</li>
