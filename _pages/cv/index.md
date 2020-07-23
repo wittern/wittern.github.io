@@ -9,7 +9,6 @@ layout: null
     <title>CV Erik Wittern</title>
     <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
     <style>
       /* https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/ */
 
@@ -28,16 +27,18 @@ layout: null
         text-decoration: none;
       }
 
-      button, select {
+      select, a.button {
+        font-size: 1rem;
         cursor: pointer;
         padding: 0.2rem 0.3rem 0.2rem 0.3rem;
         border: none;
         outline:none;
         border-radius: 5px;
         background-color: #EEE;
+        margin-right: 0.4rem;
       }
 
-      button:hover {
+      a.button:hover {
         background-color: #ccc;
       }
 
@@ -51,10 +52,10 @@ layout: null
       section {
         padding: 0.25rem 0 0.25rem 0;
       }
-      address {
+      div.address {
         display: inline-block;
       }
-      address::before {
+      div.address::before {
         content: " - ";
       }
 
@@ -83,7 +84,7 @@ layout: null
         box-sizing: border-box;
       }
 
-      main > p {
+      div.main > p {
         margin-block-start: 0.5rem;
       }
 
@@ -135,7 +136,7 @@ layout: null
       /* End: https://tobiasahlin.com/blog/layered-smooth-box-shadows/ */
 
       @media only screen and (max-width: 640px) {
-        body > main {
+        body > div.main {
           padding: 2rem;
         }
       }
@@ -177,12 +178,10 @@ layout: null
   </head>
   <body>
     <nav>
-      <button>
-        <a href="/">Back...</a>
-      </button>
-      <button onclick="window.print()">
+      <a class="button" href="/">Back...</a>
+      <a class="button" onclick="window.print()">
         Print...
-      </button>
+      </a>
       <select id="language">
         <option value="en-US">English (US)</option>
         <option value="de-DE">German</option>
@@ -211,14 +210,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Hybrid Cloud Integration <address>Hamburg, Germany</address>
+                IBM Hybrid Cloud Integration <div class="address">Hamburg, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2019-10-01">October 2019 - today</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Leading team of developers in the US and Taiwan to bring GraphQL features to IBM's DataPower/API Connect product.
             </p>
@@ -233,7 +232,7 @@ layout: null
                 Productization of previous research results.
               </li>
             </ul>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -243,14 +242,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Hybrid Cloud Integration <address>Hamburg, Deutschland</address>
+                IBM Hybrid Cloud Integration <div class="address">Hamburg, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2019-10-01">Oktober 2019 - heute</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Leitung von Team aus Entwicklern in den USA und Taiwan bei der Integration von GraphQL Fähigkeiten in IBMs DataPower/API Connect.
             </p>
@@ -265,7 +264,7 @@ layout: null
                 Überführung von Forschungsergebnissen ins Produkt.
               </li>
             </ul>
-          </main>
+          </div>
         </section>
 
         <!-- IBM Research Staff Member -->
@@ -276,14 +275,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <address>Yorktown Heights, NY, USA</address>
+                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
               </span>
               <span class="date">
                 <time datetime="2014-10-01">October 2014 - September 2019</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               <em>
                 IBM Research is the world’s largest and most established industrial research organization, and the innovation engine of IBM. Research Staff Members drive this innovation through technical and scientific work.
@@ -304,7 +303,7 @@ layout: null
               </ul>
               Apart from product adoption, my work has resulted in over 20 patents for IBM, and multiple publications in top international conferences and journals (publication / public speaking list provided upon request).
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -314,14 +313,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <address>Yorktown Heights, NY, USA</address>
+                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
               </span>
               <span class="date">
                 <time datetime="2014-10-01">Oktober 2014 - September 2019</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               <em>
                 IBM Research ist die größte und etablierteste industrielle Forschungseinrichtung der Welt, und der Innovations-Motor von IBM. Research Staff Members sind die Wissenschaftler, die diese Institution weltweit mit ihrer Expertise und ihrer technischen und wissenschaftlichen Arbeit antreiben.
@@ -342,7 +341,7 @@ layout: null
               </ul>
               Neben Beiträgen zu Produkten konnte ich durch meine Arbeit über 20 Patente für IBM generieren, sowie zahlreiche technische Beiträge in internationalen Spitzen-Konferenzen und -Journalen entwickeln.
             </p>
-          </main>
+          </div>
         </section>
 
         <!-- FZI -->
@@ -353,18 +352,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                FZI Research Center for Information Technology <address>Berlin, Germany</address>
+                FZI Research Center for Information Technology <div class="address">Berlin, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2012-08-01">August 2012 - July 2014</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Research and teaching in Cloud Computing and Software Engineering, including representation of the research group in EU multi-partner/industry-research consortium, contributions to research proposals, and supervision of master and bachelor students.
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -374,18 +373,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                FZI Forschungszentrum für Informatik <address>Berlin, Deutschland</address>
+                FZI Forschungszentrum für Informatik <div class="address">Berlin, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2012-08-01">August 2012 - Juli 2014</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Forschung und Lehre im Cloud Computing und Software Engineering, inklusive Vertretung der Forschungsgruppe in EU Forschungskonsortium aus Industrie und Akademie, Mitarbeit an Forschungsanträgen, und der Betreuung von Master- und Bachelorarbeiten.
             </p>
-          </main>
+          </div>
         </section>
 
         <!-- IBM Summer Intern -->
@@ -396,18 +395,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <address>Yorktown Heights, NY, USA</address>
+                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
               </span>
               <span class="date">
                 <time datetime="2013-06-03">June 2013 - August 2013</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Research on "Scalable Service Ecosystems", resulting in scientific paper and 4 patents, and laying the intellectual and technical groundwork for the later creation of API Harmony.
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -417,18 +416,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <address>Yorktown Heights, NY, USA</address>
+                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
               </span>
               <span class="date">
                 <time datetime="2013-06-03">Juni 2013 - August 2013</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Forschung zu "Scalable Service Ecosystems", resultierend in wissenschaftlicher Publikation und 4 Patenten, und als Grundlage für die spätere Entwicklung von API Harmony.
             </p>
-          </main>
+          </div>
         </section>
 
         <!-- Deutsche Bank Intern -->
@@ -439,18 +438,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                  Deutsche Bank AG <address>Frankfurt am Main, Germany</address>
+                  Deutsche Bank AG <div class="address">Frankfurt am Main, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2009-04-03">April 2009 - July 2009</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Working on group-strategic projects "Marketing & Communication and Realignment of Business Management" and "Global Banking Know Your Customer".
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -460,18 +459,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                  Deutsche Bank AG <address>Frankfurt am Main, Deutschland</address>
+                  Deutsche Bank AG <div class="address">Frankfurt am Main, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2009-04-03">April 2009 - Juli 2009</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Mitarbeit an den konzernweiten Strategieprojekten "Marketing & Communication and Realignment of Business Management" und "Global Banking Know Your Customer".
             </p>
-          </main>
+          </div>
         </section>
 
         <!-- IBM Deutschland Intern -->
@@ -482,18 +481,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Deutschland GmbH <address>Düsseldorf, Germany</address>
+                IBM Deutschland GmbH <div class="address">Düsseldorf, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2008-03-17">March 2008 - July 2008</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Design of technical tests for RFID system; design of an dynamic Content Management System.
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -503,18 +502,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Deutschland GmbH <address>Düsseldorf, Deutschland</address>
+                IBM Deutschland GmbH <div class="address">Düsseldorf, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2008-03-17">März 2008 - Juli 2008</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Entwicklung technischer Tests für ein RFID System; Konzipierung eines dynamischen Content MGMT Systems.
             </p>
-          </main>
+          </div>
         </section>
 
       </article>
@@ -533,18 +532,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruhe Institute of Technology (KIT) <address>Karlsruhe, Germany</address>
+                Karlsruhe Institute of Technology (KIT) <div class="address">Karlsruhe, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2010-08-01">August 2010 - May 2014</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Received title "Dr.-Ing." (magna cum laude) for work on "Modeling and Selection of Software Service Variants" at the Institute of Applied Informatics and Formal Description Methods (AIFB) under supervision of Prof. Dr. Stefan Tai.
             </p>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -554,18 +553,18 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruher Institut für Technologie (KIT) <address>Karlsruhe, Deutschland</address>
+                Karlsruher Institut für Technologie (KIT) <div class="address">Karlsruhe, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2010-08-01">August 2010 - Mai 2014</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <p>
               Erhalt von Titel "Dr.-Ing." (magna cum laude) für Arbeit zu "Modeling and Selection of Software Service Variants” am Institut für Angewandte Informatik und Formale Beschreibungsverfahren (AIFB) unter Prof. Dr. Stefan Tai.
             </p>
-          </main>
+          </div>
         </section>
 
         <!-- Study Wirtschaftsingenieurwesen -->
@@ -576,14 +575,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruhe Institute of Technology (KIT) <address>Karlsruhe, Germany</address>
+                Karlsruhe Institute of Technology (KIT) <div class="address">Karlsruhe, Germany</div>
               </span>
               <span class="date">
                 <time datetime="2004-10-01">October 2004 - July 2010</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <ul>
               <li>
                 Grade 1.5 ("very good”), focus on computer science
@@ -592,7 +591,7 @@ layout: null
                 Working as a research assistant from December 2009 to March 2010
               </li>
             </ul>
-          </main>
+          </div>
         </section>
 
         <section lang="de-DE">
@@ -602,14 +601,14 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruher Institut für Technologie (KIT) <address>Karlsruhe, Deutschland</address>
+                Karlsruher Institut für Technologie (KIT) <div class="address">Karlsruhe, Deutschland</div>
               </span>
               <span class="date">
                 <time datetime="2004-10-01">Oktober 2004 - Juli 2010</time>
               </span>
             </h4>
           </header>
-          <main>
+          <div class="main">
             <ul>
               <li>
                 Erlangung des Grades Dipl.-Wirtschaftsingenieur mit Note 1,5 (sehr gut).
@@ -618,7 +617,7 @@ layout: null
                 Tätigkeit als wissenschaftliche Hilfskraft von Dezember 2009 bis März 2010.
               </li>
             </ul>
-          </main>
+          </div>
         </section>
       </article>
 
@@ -626,7 +625,7 @@ layout: null
         <h2 lang="en-US">Technical eminence</h2>
         <h2 lang="de-DE">Technische Eminenz</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <ul>
             <li>Over 25 talks at international scientific as well as at developer conferences (e.g., API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
             <li>Technical representative of IBM in the GraphQL Foundation since March 2019</li>
@@ -637,9 +636,9 @@ layout: null
             <li>Author of over 25 scientific, peer-reviewed articles in leading international conferences and journals (over 500 citations) and 20 patents</li>
             <li>Reviewer of technical contributions to leading journals & national grant proposals (Canada, Israel etc.)</li>
           </ul>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <ul>
             <li>Über 25 Vorträge auf internationalen wissenschaftlichen sowie technischen Konferenzen (z.B. API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
             <li>Technischer Vertreter IBMs und Founding Member in der GraphQL Foundation seit März 2019</li>
@@ -650,14 +649,14 @@ layout: null
             <li>Autor von über 25  wissenschaftlichen, peer-reviewed Fachartikeln, in internationalen Top-Konferenzen und Journalen (über 500 Zitierungen) und 20 Patenten</li>
             <li>Begutachter technischer Beiträge in Top-Journalen & nationaler Forschungsanträge (u.A. Kanada, Israel)</li>
           </ul>
-        </main>
+        </div>
       </article>
 
       <article>
         <h2 lang="en-US">Awards / Honors</h2>
         <h2 lang="de-DE">Auszeichnungen</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <ul>
             <li>5 IBM Innovation Plateaus – Recognition for submitting in sum 20 patents for IBM</li>
             <li>IBM "A Level Accomplishment" for "Research Contributions to the API Economy and SaaS Transformation"</li>
@@ -665,9 +664,9 @@ layout: null
             <li>ACM SIGSOFT Distinguished Paper Award at the MSR conference 2018</li>
             <li>IBM "Open Source Strategic Leader" accomplishment for work on OpenAPI-to-GraphQL</li>
          </ul>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <ul>
             <li>5 IBM Innovations Plateaus – Auszeichnungen als Anerkennung für die Entwicklung von 20 Patenten</li>
             <li>IBM "A Level Accomplishment" (Auszeichung für Einflussreiche technische und wissenschaftliche Beiträge) für "Research Contributions to the API Economy and SaaS Transformation"</li>
@@ -675,56 +674,56 @@ layout: null
             <li>ACM SIGSOFT Distinguished Paper Award auf der MSR Konferenz in 2018</li>
             <li>IBM "Open Source Strategic Leader" Auszeichnung für Arbeit an OpenAPI-to-GraphQL</li>
          </ul>
-        </main>
+        </div>
       </article>
 
       <article>
         <h2 lang="en-US">Side projects</h2>
         <h2 lang="de-DE">Nebenprojekte</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <ul>
             <li>MagicOS.co: Application for managing Old School Magic collections (React.js, Google Cloud)</li>
             <li>numbie: Anonymous, ephemeral, real-time location sharing (Meteor, Heroku)</li>
             <li>GravityQuest: Retro game, in the iOS app store from 2014 to 2017 (Phaser.js)</li>
             <li>TechCrunch Disrupt: 3-times participant and developer in the TechCrunch Disrupt NYC Hackathon (awarded tickets to the main conference after evaluation of the outcome each time)</li>
           </ul>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <ul>
             <li>MagicOS.co: Verwaltungsapplikation für Old School Magic Sammlungen (React.js, Google Cloud)</li>
             <li>numbie: Anonyme, vergängliche Lokalisierung in Echtzeit (Meteor, Heroku)</li>
             <li>GravityQuest: Retrospiel, im iOS App Store von 2014 bis 2017 (Phaser.js)</li>
             <li>TechCrunch Disrupt: 3-facher Teilnehmer und App-Entwickler beim TechCrunch Disrupt NYC Hackathon (jedes Mal von der Jury mit Tickets zur Hauptkonferenz ausgezeichnet)</li>
           </ul>
-        </main>
+        </div>
       </article>
 
       <article>
         <h2 lang="en-US">Social engagement</h2>
         <h2 lang="de-DE">Soziales Engagement</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <ul>
             <li>Volunteer judge at the Westchester Science & Engineering Fair (WESEF) in New York, 2015 to 2019</li>
             <li>President of the UNICEF student organization at KIT from July 2008 to August 2010</li>
           </ul>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <ul>
             <li>Ehrenamtlicher Juror der Westchester Science & Engineering Fair (WESEF) in New York, 2015 bis 2019</li>
             <li>Leiter der UNICEF Hochschulgruppe am KIT vom Juli 2008 bis August 2010</li>
           </ul>
-        </main>
+        </div>
       </article>
 
       <article>
         <h2 lang="en-US">IT skills</h2>
         <h2 lang="de-DE">IT Kenntnisse</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <table>
             <tr>
               <td>Programming:</td>
@@ -739,9 +738,9 @@ layout: null
               <td>GraphQL, OpenAPI, REST, serverless (OpenWhisk), Git, Docker, Kubernetes, Istio etc.</td>
             </tr>
           </table>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <table>
             <tr>
               <td>Programmieren:</td>
@@ -756,7 +755,7 @@ layout: null
               <td>GraphQL, OpenAPI, REST, serverless (OpenWhisk), Git, Docker, Kubernetes, Istio etc.</td>
             </tr>
           </table>
-        </main>
+        </div>
       </article>
 
 
@@ -764,34 +763,34 @@ layout: null
         <h2 lang="en-US">Languages</h2>
         <h2 lang="de-DE">Sprachen</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <p>
             German (native speaker), English (business fluent), French (basic knowledge)
           </p>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <p>
             Deutsch (Muttersprachler), Englisch (verhandlungssicher), Französisch (Grundkenntnisse)
           </p>
-        </main>
+        </div>
       </article>
 
       <article>
         <h2 lang="en-US">Hobbies</h2>
         <h2 lang="de-DE">Hobbies</h2>
 
-        <main lang="en-US">
+        <div class="main" lang="en-US">
           <p>
             Tennis, Old School Magic, programming, reading, cooking
           </p>
-        </main>
+        </div>
 
-        <main lang="de-DE">
+        <div class="main" lang="de-DE">
           <p>
             Tennis, Old School Magic, Programmieren, Lesen, Kochen
           </p>
-        </main>
+        </div>
       </article>
 
     </main>
