@@ -52,10 +52,7 @@ layout: null
       section {
         padding: 0.25rem 0 0.25rem 0;
       }
-      div.address {
-        display: inline-block;
-      }
-      div.address::before {
+      span.address::before {
         content: " - ";
       }
 
@@ -210,7 +207,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Hybrid Cloud Integration <div class="address">Hamburg, Germany</div>
+                IBM Hybrid Cloud Integration <span class="address">Hamburg, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2019-10-01">October 2019 - today</time>
@@ -242,7 +239,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Hybrid Cloud Integration <div class="address">Hamburg, Deutschland</div>
+                IBM Hybrid Cloud Integration <span class="address">Hamburg, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2019-10-01">Oktober 2019 - heute</time>
@@ -275,7 +272,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
+                IBM T.J. Watson Research Center <span class="address">Yorktown Heights, NY, USA</span>
               </span>
               <span class="date">
                 <time datetime="2014-10-01">October 2014 - September 2019</time>
@@ -313,7 +310,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
+                IBM T.J. Watson Research Center <span class="address">Yorktown Heights, NY, USA</span>
               </span>
               <span class="date">
                 <time datetime="2014-10-01">Oktober 2014 - September 2019</time>
@@ -352,7 +349,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                FZI Research Center for Information Technology <div class="address">Berlin, Germany</div>
+                FZI Research Center for Information Technology <span class="address">Berlin, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2012-08-01">August 2012 - July 2014</time>
@@ -373,7 +370,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                FZI Forschungszentrum für Informatik <div class="address">Berlin, Deutschland</div>
+                FZI Forschungszentrum für Informatik <span class="address">Berlin, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2012-08-01">August 2012 - Juli 2014</time>
@@ -395,7 +392,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
+                IBM T.J. Watson Research Center <span class="address">Yorktown Heights, NY, USA</span>
               </span>
               <span class="date">
                 <time datetime="2013-06-03">June 2013 - August 2013</time>
@@ -416,7 +413,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM T.J. Watson Research Center <div class="address">Yorktown Heights, NY, USA</div>
+                IBM T.J. Watson Research Center <span class="address">Yorktown Heights, NY, USA</span>
               </span>
               <span class="date">
                 <time datetime="2013-06-03">Juni 2013 - August 2013</time>
@@ -438,7 +435,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                  Deutsche Bank AG <div class="address">Frankfurt am Main, Germany</div>
+                  Deutsche Bank AG <span class="address">Frankfurt am Main, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2009-04-03">April 2009 - July 2009</time>
@@ -459,7 +456,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                  Deutsche Bank AG <div class="address">Frankfurt am Main, Deutschland</div>
+                  Deutsche Bank AG <span class="address">Frankfurt am Main, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2009-04-03">April 2009 - Juli 2009</time>
@@ -481,7 +478,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Deutschland GmbH <div class="address">Düsseldorf, Germany</div>
+                IBM Deutschland GmbH <span class="address">Düsseldorf, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2008-03-17">March 2008 - July 2008</time>
@@ -502,7 +499,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                IBM Deutschland GmbH <div class="address">Düsseldorf, Deutschland</div>
+                IBM Deutschland GmbH <span class="address">Düsseldorf, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2008-03-17">März 2008 - Juli 2008</time>
@@ -532,7 +529,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruhe Institute of Technology (KIT) <div class="address">Karlsruhe, Germany</div>
+                Karlsruhe Institute of Technology (KIT) <span class="address">Karlsruhe, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2010-08-01">August 2010 - May 2014</time>
@@ -553,7 +550,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruher Institut für Technologie (KIT) <div class="address">Karlsruhe, Deutschland</div>
+                Karlsruher Institut für Technologie (KIT) <span class="address">Karlsruhe, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2010-08-01">August 2010 - Mai 2014</time>
@@ -575,7 +572,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruhe Institute of Technology (KIT) <div class="address">Karlsruhe, Germany</div>
+                Karlsruhe Institute of Technology (KIT) <span class="address">Karlsruhe, Germany</span>
               </span>
               <span class="date">
                 <time datetime="2004-10-01">October 2004 - July 2010</time>
@@ -601,7 +598,7 @@ layout: null
             </h3>
             <h4 class="title">
               <span class="org">
-                Karlsruher Institut für Technologie (KIT) <div class="address">Karlsruhe, Deutschland</div>
+                Karlsruher Institut für Technologie (KIT) <span class="address">Karlsruhe, Deutschland</span>
               </span>
               <span class="date">
                 <time datetime="2004-10-01">Oktober 2004 - Juli 2010</time>
