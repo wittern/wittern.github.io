@@ -287,17 +287,19 @@ layout: null
             </p>
             <p>
               Key researcher on web APIs and GraphQL within the Cloud Computing department: leading teams of researchers and software engineers, setting technical directions, and communicating goals, results, and broader technology trends to upper management – in addition to hands-on research and engineering. Projects include:
-              <ul>
-                <li>
-                  R&D of GraphQL API management facilities, resulting in my selection as IBM's technical representative in the GraphQL Foundation and my current role as IBM's GraphQL lead architect.
-                </li>
-                <li>
-                  R&D of OpenAPI-to-GraphQL, an open-sourced library for migrating APIs to GraphQL. Includes overseeing related open-source process (testing automation, release management, customer support).
-                </li>
-                <li>
-                  Design, implementation, and continuous operation of API Harmony, an API catalog in the IBM Cloud, which relies on mining web APIs and their use in open-source projects.
-                </li>
-              </ul>
+            </p>
+            <ul>
+              <li>
+                R&D of GraphQL API management facilities, resulting in my selection as IBM's technical representative in the GraphQL Foundation and my current role as IBM's GraphQL lead architect.
+              </li>
+              <li>
+                R&D of OpenAPI-to-GraphQL, an open-sourced library for migrating APIs to GraphQL. Includes overseeing related open-source process (testing automation, release management, customer support).
+              </li>
+              <li>
+                Design, implementation, and continuous operation of API Harmony, an API catalog in the IBM Cloud, which relies on mining web APIs and their use in open-source projects.
+              </li>
+            </ul>
+            <p>
               Apart from product adoption, my work has resulted in over 20 patents for IBM, and multiple publications in top international conferences and journals (publication / public speaking list provided upon request).
             </p>
           </div>
@@ -325,17 +327,19 @@ layout: null
             </p>
             <p>
               Leitender Forscher zu Web APIs und GraphQL im Cloud Computing: Leitung von Teams aus Forschern und Entwicklern, Bestimmung der Forschungsagenda und Kommunikation von Zielen, Ergebnissen, und Technologie-Trends ans obere Management – parallel zu eigenen Forschungs- und Entwicklungsbeiträgen. Projekte & Erfolge:
-              <ul>
-                <li>
-                  F&E von GraphQL API Management. In Konsequenz wurde ich zum technischen Vertreter IBMs in der GraphQL Foundation ernannt und erhielt meine derzeitige Rolle als IBMs GraphQL Lead Architect.
-                </li>
-                <li>
-                  F&E von OpenAPI-to-GraphQL, einer open-source Bibliothek zur Migration zu GraphQL. Verantwortung für open-source Prozesse wie automatische Tests, Release Management, Kundensupport.
-                </li>
-                <li>
-                  Konzipierung, Implementierung und kontinuierlicher operativer Betrieb von API Harmony, einem API Katalog in der IBM Cloud, der Daten zu Web APIs und deren Nutzung in GitHub sammelt.
-                </li>
-              </ul>
+            </p>
+            <ul>
+              <li>
+                F&E von GraphQL API Management. In Konsequenz wurde ich zum technischen Vertreter IBMs in der GraphQL Foundation ernannt und erhielt meine derzeitige Rolle als IBMs GraphQL Lead Architect.
+              </li>
+              <li>
+                F&E von OpenAPI-to-GraphQL, einer open-source Bibliothek zur Migration zu GraphQL. Verantwortung für open-source Prozesse wie automatische Tests, Release Management, Kundensupport.
+              </li>
+              <li>
+                Konzipierung, Implementierung und kontinuierlicher operativer Betrieb von API Harmony, einem API Katalog in der IBM Cloud, der Daten zu Web APIs und deren Nutzung in GitHub sammelt.
+              </li>
+            </ul>
+            <p>
               Neben Beiträgen zu Produkten konnte ich durch meine Arbeit über 20 Patente für IBM generieren, sowie zahlreiche technische Beiträge in internationalen Spitzen-Konferenzen und -Journalen entwickeln.
             </p>
           </div>
