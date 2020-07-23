@@ -4,6 +4,7 @@ slug: cv
 layout: null
 ---
 
+<!DOCTYPE html>
 <html>
   <head>
     <title>CV Erik Wittern</title>
