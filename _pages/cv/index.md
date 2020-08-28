@@ -672,7 +672,7 @@ layout: null
             <li>5 IBM Innovations Plateaus – Auszeichnungen als Anerkennung für die Entwicklung von 20 Patenten</li>
             <li>IBM "A Level Accomplishment" (Auszeichung für Einflussreiche technische und wissenschaftliche Beiträge) für "Research Contributions to the API Economy and SaaS Transformation"</li>
             <li>Distinguished Reviewer Award auf der MSR Konferenz in 2019</li>
-            <li>ACM SIGSOFT Distinguished Paper Awards auf den ESEC/FSE 2020 und der MSR 2018 Konferenzen</li>
+            <li>ACM SIGSOFT Distinguished Paper Awards auf der ESEC/FSE 2020 und der MSR 2018 Konferenz</li>
             <li>IBM "Open Source Strategic Leader" Auszeichnung für Arbeit an OpenAPI-to-GraphQL</li>
          </ul>
         </div>
