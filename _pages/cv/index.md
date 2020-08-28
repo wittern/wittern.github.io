@@ -220,7 +220,7 @@ layout: null
             </p>
             <ul>
               <li>
-                Design, prioritization and implementation of core features (incl. query validation, static analysis, schema views; in C++ / TypeScript).
+                Design, prioritization and implementation of core features (incl. query validation, static analysis, schema views; in C++ / TypeScript / Rust).
               </li>
               <li>
                 Sharing knowledge and teaching colleagues about GraphQL (one-to-one & via presentations).
@@ -252,7 +252,7 @@ layout: null
             </p>
             <ul>
               <li>
-                Design, Priorisierung, und Implementierung der Kernfeatures (inkl. Query Validierung, statischer Query Analyse, Schema-Sichten; in TypeScript / C++).
+                Design, Priorisierung, und Implementierung der Kernfeatures (inkl. Query Validierung, statischer Query Analyse, Schema-Sichten; in C++ / TypeScript / Rust).
               </li>
               <li>
                 Wissen teilen und Kollegen anleiten (eins-zu-eins sowie durch Präsentationen).
@@ -630,7 +630,7 @@ layout: null
           <ul>
             <li>Over 25 talks at international scientific as well as at developer conferences (e.g., API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
             <li>Technical representative of IBM in the GraphQL Foundation since March 2019</li>
-            <li>Creator and co-maintainer of OpenAPI-to-GraphQL open-source project (>700 GitHub stars)</li>
+            <li>Creator and co-maintainer of OpenAPI-to-GraphQL (>800 GitHub stars) and GraphQL Query Generator (>200 stars) open-source project</li>
             <li>Member of program committees of numerous international top conferences (MSR, ICWE, ICWS ICSME etc.) und of the steering committee of the ESOCC conference since 2016</li>
             <li>Co-organizer of international scientific events, including the 2nd Vienna Software Seminar "DevOps and Microservice APIs” in August 2019 and multiple workshops (MoTA 2016; M4IoT 2017 & 2018) at the Middleware conference</li>
             <li>Book co-author "Cloud Service Benchmarking", published by Springer</li>
@@ -643,7 +643,7 @@ layout: null
           <ul>
             <li>Über 25 Vorträge auf internationalen wissenschaftlichen sowie technischen Konferenzen (z.B. API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
             <li>Technischer Vertreter IBMs und Founding Member in der GraphQL Foundation seit März 2019</li>
-            <li>Author und Co-Maintainer von OpenAPI-to-GraphQL Open-Source-Projekts (>700 GitHub Sterne)</li>
+            <li>Author und Co-Maintainer von OpenAPI-to-GraphQL (>800 GitHub Sterne) und GraphQL Query Generator (>200 GitHub Sterne) Open-Source-Projekten</li>
             <li>Mitglied des Programm Komitees zahlreicher internationaler Top-Konferenzen (MSR, ICWE, ICWS ICSME etc.) und des Steering Komitees der ESOCC Konferenz seit 2016</li>
             <li>Mitveranstalter internationaler wissenschaftlicher Events, inklusive dem 2nd Vienna Software Seminar "DevOps and Microservice APIs” im August 2019 und mehreren Workshops (MoTA 2016; M4IoT 2017 & 2018) auf der Middleware Konferenz</li>
             <li>Buch Co-Autor „Cloud Service Benchmarking”, publiziert bei Springer</li>
@@ -662,7 +662,7 @@ layout: null
             <li>5 IBM Innovation Plateaus – Recognition for submitting in sum 20 patents for IBM</li>
             <li>IBM "A Level Accomplishment" for "Research Contributions to the API Economy and SaaS Transformation"</li>
             <li>Distinguished Reviewer Award at the MSR Conference in 2019</li>
-            <li>ACM SIGSOFT Distinguished Paper Award at the MSR conference 2018</li>
+            <li>ACM SIGSOFT Distinguished Paper Awards at the ESEC/FSE 2020 and at the MSR 2018 conferences</li>
             <li>IBM "Open Source Strategic Leader" accomplishment for work on OpenAPI-to-GraphQL</li>
          </ul>
         </div>
@@ -672,7 +672,7 @@ layout: null
             <li>5 IBM Innovations Plateaus – Auszeichnungen als Anerkennung für die Entwicklung von 20 Patenten</li>
             <li>IBM "A Level Accomplishment" (Auszeichung für Einflussreiche technische und wissenschaftliche Beiträge) für "Research Contributions to the API Economy and SaaS Transformation"</li>
             <li>Distinguished Reviewer Award auf der MSR Konferenz in 2019</li>
-            <li>ACM SIGSOFT Distinguished Paper Award auf der MSR Konferenz in 2018</li>
+            <li>ACM SIGSOFT Distinguished Paper Awards auf den ESEC/FSE 2020 und der MSR 2018 Konferenzen</li>
             <li>IBM "Open Source Strategic Leader" Auszeichnung für Arbeit an OpenAPI-to-GraphQL</li>
          </ul>
         </div>
@@ -728,7 +728,7 @@ layout: null
           <table>
             <tr>
               <td>Programming:</td>
-              <td>TypeScript/JavaScript/Node, C++, Python, Java, Ruby, HTML, CSS</td>
+              <td>TypeScript/JavaScript/Node, C++, Rust, Python, Java, Ruby, HTML, CSS</td>
             </tr>
             <tr>
               <td>Frameworks:</td>
@@ -745,7 +745,7 @@ layout: null
           <table>
             <tr>
               <td>Programmieren:</td>
-              <td>TypeScript/JavaScript/Node, C++, Python, Java, Ruby, HTML, CSS</td>
+              <td>TypeScript/JavaScript/Node, C++, Rust, Python, Java, Ruby, HTML, CSS</td>
             </tr>
             <tr>
               <td>Frameworks:</td>
