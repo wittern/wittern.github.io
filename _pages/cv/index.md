@@ -210,7 +210,7 @@ layout: null
                 IBM Hybrid Cloud Integration <span class="address">Hamburg, Germany</span>
               </span>
               <span class="date">
-                <time datetime="2019-10-01">October 2019 - today</time>
+                <time datetime="2019-10-01">October 2019 - November 2020</time>
               </span>
             </h4>
           </header>
@@ -242,7 +242,7 @@ layout: null
                 IBM Hybrid Cloud Integration <span class="address">Hamburg, Deutschland</span>
               </span>
               <span class="date">
-                <time datetime="2019-10-01">Oktober 2019 - heute</time>
+                <time datetime="2019-10-01">Oktober 2019 - November 2020</time>
               </span>
             </h4>
           </header>
