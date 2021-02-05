@@ -290,7 +290,7 @@ layout: null
             </p>
             <ul>
               <li>
-                R&D of GraphQL API management facilities, resulting in my selection as IBM's technical representative in the GraphQL Foundation and my current role as IBM's GraphQL lead architect.
+                R&D of GraphQL API management facilities, resulting in my selection as IBM's technical representative in the GraphQL Foundation and my later role as IBM's GraphQL lead architect.
               </li>
               <li>
                 R&D of OpenAPI-to-GraphQL, an open-sourced library for migrating APIs to GraphQL. Includes overseeing related open-source process (testing automation, release management, customer support).
@@ -330,7 +330,7 @@ layout: null
             </p>
             <ul>
               <li>
-                F&E von GraphQL API Management. In Konsequenz wurde ich zum technischen Vertreter IBMs in der GraphQL Foundation ernannt und erhielt meine derzeitige Rolle als IBMs GraphQL Lead Architect.
+                F&E von GraphQL API Management. In Konsequenz wurde ich zum technischen Vertreter IBMs in der GraphQL Foundation ernannt und erhielt meine Rolle als IBMs GraphQL Lead Architect.
               </li>
               <li>
                 F&E von OpenAPI-to-GraphQL, einer open-source Bibliothek zur Migration zu GraphQL. Verantwortung für open-source Prozesse wie automatische Tests, Release Management, Kundensupport.
@@ -631,7 +631,7 @@ layout: null
             <li>Over 25 talks at international scientific as well as at developer conferences (e.g., API Conference 2019, API Strategy 2018, IBM InterConnect 2018)</li>
             <li>Technical representative of IBM in the GraphQL Foundation since March 2019</li>
             <li>Creator and co-maintainer of OpenAPI-to-GraphQL (>800 GitHub stars) and GraphQL Query Generator (>200 stars) open-source project</li>
-            <li>Member of program committees of numerous international top conferences (MSR, ICWE, ICWS ICSME etc.) und of the steering committee of the ESOCC conference since 2016</li>
+            <li>Member of program committees of numerous international top conferences (MSR, ICWE, ICWS ICSME etc.) and of the steering committee of the ESOCC conference since 2016</li>
             <li>Co-organizer of international scientific events, including the 2nd Vienna Software Seminar "DevOps and Microservice APIs” in August 2019 and multiple workshops (MoTA 2016; M4IoT 2017 & 2018) at the Middleware conference</li>
             <li>Book co-author "Cloud Service Benchmarking", published by Springer</li>
             <li>Author of over 25 scientific, peer-reviewed articles in leading international conferences and journals (over 500 citations) and 20 patents</li>
