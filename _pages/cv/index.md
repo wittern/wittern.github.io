@@ -300,7 +300,7 @@ layout: null
               </li>
             </ul>
             <p>
-              Apart from product adoption, my work has resulted in over 20 patents for IBM, and multiple publications in top international conferences and journals (publication / public speaking list provided upon request).
+              Apart from product adoption, my work has resulted in over 20 patents for IBM, and multiple award-winning publications in top international conferences and journals (publication / public speaking list provided upon request).
             </p>
           </div>
         </section>
@@ -340,7 +340,7 @@ layout: null
               </li>
             </ul>
             <p>
-              Neben Beiträgen zu Produkten konnte ich durch meine Arbeit über 20 Patente für IBM generieren, sowie zahlreiche technische Beiträge in internationalen Spitzen-Konferenzen und -Journalen entwickeln.
+              Neben Beiträgen zu Produkten konnte ich durch meine Arbeit über 20 Patente für IBM generieren, sowie zahlreiche, prämierte technische Beiträge in internationalen Spitzen-Konferenzen und -Journalen veröffentlichen.
             </p>
           </div>
         </section>
