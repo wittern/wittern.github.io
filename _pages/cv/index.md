@@ -634,7 +634,7 @@ layout: null
             <li>Member of program committees of numerous international top conferences (MSR, ICWE, ICWS ICSME etc.) and of the steering committee of the ESOCC conference since 2016</li>
             <li>Co-organizer of international scientific events, including the 2nd Vienna Software Seminar "DevOps and Microservice APIs” in August 2019 and multiple workshops (MoTA 2016; M4IoT 2017 & 2018) at the Middleware conference</li>
             <li>Book co-author "Cloud Service Benchmarking", published by Springer</li>
-            <li>Author of over 25 scientific, peer-reviewed articles in leading international conferences and journals (over 500 citations) and 20 patents</li>
+            <li>Author of over 25 scientific, peer-reviewed articles in leading international conferences and journals (over 650 citations) and 20 patents</li>
             <li>Reviewer of technical contributions to leading journals & national grant proposals (Canada, Israel etc.)</li>
           </ul>
         </div>
@@ -647,7 +647,7 @@ layout: null
             <li>Mitglied des Programm Komitees zahlreicher internationaler Top-Konferenzen (MSR, ICWE, ICWS ICSME etc.) und des Steering Komitees der ESOCC Konferenz seit 2016</li>
             <li>Mitveranstalter internationaler wissenschaftlicher Events, inklusive dem 2nd Vienna Software Seminar "DevOps and Microservice APIs” im August 2019 und mehreren Workshops (MoTA 2016; M4IoT 2017 & 2018) auf der Middleware Konferenz</li>
             <li>Buch Co-Autor „Cloud Service Benchmarking”, publiziert bei Springer</li>
-            <li>Autor von über 25  wissenschaftlichen, peer-reviewed Fachartikeln, in internationalen Top-Konferenzen und Journalen (über 500 Zitierungen) und 20 Patenten</li>
+            <li>Autor von über 25  wissenschaftlichen, peer-reviewed Fachartikeln, in internationalen Top-Konferenzen und Journalen (über 650 Zitierungen) und 20 Patenten</li>
             <li>Begutachter technischer Beiträge in Top-Journalen & nationaler Forschungsanträge (u.A. Kanada, Israel)</li>
           </ul>
         </div>
